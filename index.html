@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="veligdenApp">
+    <head>
+        <title>Дали е велигден?</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Georgi Stanojevski (glisha@dalieveligden.mk), Naum Spaseski (naum.spaseski@gmail.com)" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+
+        <link href="styles.css" type="text/css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+        <script src="veligden.js"></script>
+        <script src="countdownTimer.js"></script>
+    </head>
+    <body ng-controller="veligdenController as veligden">
+        <div class="centar">
+            <span class="centar-span" title="{{ veligden.daliEDenesVeligden() }}">{{ veligden.daliEDenesVeligden() }}</span>
+        </div>
+        <div class="dolu-desno"><a class="uste-kolku" href="ushtekolku" title="А уште колку до Велигден?">a уште колку до Велигден?</a></div>
+    </body>
+</html>
+

@@ -1,0 +1,25 @@
+.centar{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 160px;
+    width:100%;
+    text-align: center;
+}
+
+.centar-span{
+    font-weight: bold; font-size: 120pt; font-family: Arial, sans-serif; text-decoration: none; color: black;
+}
+
+.dolu-desno{
+    position: fixed;
+    bottom: 0; right: 0;
+    text-align: right;
+}
+
+.uste-kolku{
+    font-size: 6px; color: #cecece; text-decoration: none;
+}
+
+.cntdwn { font-size: 48pt; font-weight: bold; font-family: Arial, sans-serif; text-decoration: none; color: black; }
+.cntdwndiv { font-size: 20pt; font-weight: bold; color: lightgrey; font-family: Arial, sans-serif; text-decoration: none; }
